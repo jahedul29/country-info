@@ -1,0 +1,32 @@
+.flags {
+  float: left;
+}
+
+.flag-container {
+  width: 20%;
+  position: relative;
+  margin: 2%;
+  display: inline-block;
+}
+
+.flag-img {
+  width: 100%;
+  position: relative;
+}
+.name {
+  width: 100%;
+  background-color: rgba(192, 64, 64, 0.459);
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  opacity: 0;
+  transition: 1s ease-out;
+}
+
+.flag-container:hover > .name {
+  opacity: 1;
+}

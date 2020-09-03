@@ -1,0 +1,12 @@
+p {
+  font-size: 25px;
+}
+p span {
+  font-weight: 700;
+}
+.country-name {
+  font-size: 55px;
+  margin-bottom: 5%;
+  color: rgb(219, 14, 151);
+  font-weight: 800;
+}
